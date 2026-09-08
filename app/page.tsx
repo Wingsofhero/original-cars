@@ -76,7 +76,7 @@ export default function Home() {
         <div className="header-inner shell">
           <Brand />
           <nav className="desktop-nav" aria-label="Hlavná navigácia">
-            <a href="#sluzby">Služby</a><a href="#o-nas">O nás</a><a href="#galeria">Galéria</a><a href="#kontakt">Kontakt</a>
+            <a className="active" href="#top">Úvod</a><a href="#sluzby">Služby</a><a href="#o-nas">O nás</a><a href="#galeria">Galéria</a><a href="#kontakt">Kontakt</a>
           </nav>
           <a className="header-call" href="tel:+421903277970">
             <Phone size={17} aria-hidden="true" /><span><small>Zavolajte nám</small>0903 277 970</span>
@@ -95,9 +95,9 @@ export default function Home() {
         <div className="hero-shade" />
         <div className="hero-content shell">
           <div className="hero-copy">
-            <p className="eyebrow"><span /> Autoservis v Partizánskom</p>
-            <h1>Všetko pre vaše auto.<br /><em>Pod jednou strechou.</em></h1>
-            <p className="hero-lead">Servisujeme všetky značky osobných aj úžitkových vozidiel. Profesionálne, férovo a bez zbytočných komplikácií.</p>
+            <p className="eyebrow"><span /> Váš spoľahlivý</p>
+            <h1>Autoservis<br /><em>v Partizánskom.</em></h1>
+            <p className="hero-lead">Kompletný servis všetkých značiek osobných aj úžitkových vozidiel. Profesionálny prístup, presná diagnostika a všetko pod jednou strechou.</p>
             <div className="hero-actions">
               <a className="button button-primary" href="tel:+421903277970"><Phone size={19} /> Objednať servis</a>
               <a className="button button-ghost" href="#sluzby">Naše služby <ArrowRight size={19} /></a>
@@ -145,7 +145,7 @@ export default function Home() {
       <section className="feature section" id="o-nas">
         <div className="shell feature-grid">
           <div className="feature-image-wrap">
-            <img src="/images/air-conditioning-service.webp" alt="Plnenie klimatizácie v autoservise Original Cars" />
+            <img src="/images/reception.webp" alt="Recepcia autoservisu Original Cars" />
             <div className="feature-stamp"><b>01</b><span>servis<br />bez kompromisov</span></div>
           </div>
           <div className="feature-copy">
