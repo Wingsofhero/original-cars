@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { ArrowRight, AtSign, Car, Clock3, Gauge, Mail, MapPin, Phone, ShieldCheck, UsersRound, Wrench } from 'lucide-react';
+import { ArrowRight, AtSign, BadgeCheck, Car, Clock3, Gauge, Mail, MapPin, Phone, ShieldCheck, UsersRound, Wrench } from 'lucide-react';
 import { Gallery } from '@/components/Gallery';
 import { ServiceIcon } from '@/components/ServiceIcon';
 import { SiteFooter } from '@/components/SiteFooter';
@@ -27,6 +27,10 @@ export default function Home() {
     <section className="section services" id="sluzby"><div className="shell">
       <div className="section-heading compact"><div><p className="eyebrow red"><span /> Naše služby</p><h2>Všetko pre vaše auto.</h2></div><p>Od pravidelnej údržby až po náročnejšie opravy. Vyberte službu a pozrite si podrobnosti.</p></div>
       <div className="service-grid">{services.map((service) => <a className="service-card" href={`/sluzby/${service.slug}`} key={service.slug}><ServiceIcon name={service.icon} /><h3>{service.title}</h3><p>{service.short}</p><span className="card-link">Viac informácií <ArrowRight size={15} /></span></a>)}</div>
+    </div></section>
+    <section className="bg-showcase"><div className="shell bg-showcase-grid">
+      <div className="bg-copy"><p className="eyebrow bg-eyebrow"><span /> Produkty BG</p><div className="bg-status"><BadgeCheck size={18} /> Oficiálny predajca a distribútor</div><h2>Portfólio produktov<br /><em>značky BG.</em></h2><p>Prísady do motorových a prevodových olejov, produkty do automatických prevodoviek aj palivových systémov. Vykonávame tiež profesionálnu dekarbonizáciu benzínových a dieselových motorov produktmi BG.</p><div className="bg-actions"><a className="button primary" href="/sluzby/dekarbonizacia-bg-a-prisady">Pozrieť ponuku <ArrowRight size={17} /></a><a className="button outline" href="tel:+421903277970"><Phone size={17} /> Informovať sa</a></div></div>
+      <div className="bg-photo-wall"><figure className="bg-photo-main"><Image src="/images/bg-products-7509.webp" alt="Portfólio produktov značky BG" fill sizes="(max-width: 800px) 100vw, 44vw" /></figure><figure><Image src="/images/bg-products-7507.webp" alt="Produkty BG pre motory a palivové systémy" fill sizes="(max-width: 800px) 48vw, 22vw" /></figure><figure><Image src="/images/bg-products-7506.webp" alt="Prísady BG do prevodoviek a olejov" fill sizes="(max-width: 800px) 48vw, 22vw" /></figure></div>
     </div></section>
     <section className="ride"><div className="shell ride-inner"><div className="ride-icon"><Car /></div><div><p className="eyebrow light"><span /> Myslíme aj na vás</p><h2>Auto ostáva u nás. Vy sa dostanete domov.</h2><p>Nechávate auto v servise? Ak sa nemáte ako dostať domov, zabezpečíme vám odvoz.</p></div><a className="button light-button" href="tel:+421903277970"><Phone size={18} /> Dohodnúť odvoz</a></div></section>
     <section className="section about" id="o-nas"><div className="shell about-grid">
