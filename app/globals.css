@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family:'Lobster';
+  src:url('/fonts/lobster-latin-ext-400-normal.woff2') format('woff2');
+  font-style:normal;
+  font-weight:400;
+  font-display:swap;
+}
+
 :root { --ink:#071720; --ink-2:#0d2632; --red:#ee162d; --soft:#f3f5f6; --line:#dfe4e6; --muted:#5d686f; }
 * { box-sizing:border-box; }
 html { scroll-behavior:smooth; }
@@ -11,7 +19,10 @@ button { font:inherit; }
 .site-header { position:sticky; top:0; z-index:40; height:76px; color:#fff; background:rgba(5,19,27,.98); border-bottom:1px solid rgba(255,255,255,.1); }
 .header-inner { height:100%; display:flex; align-items:center; gap:34px; }
 .logo { display:block; width:238px; flex:none; }
-.logo img { display:block; width:100%; height:auto; }
+.logo img, .logo svg { display:block; width:100%; height:auto; }
+.logo-wordmark, .logo-company-suffix { font-family:'Lobster', cursive; }
+.logo-company-suffix { letter-spacing:.5px; }
+.logo-subtitle { font-family:Arial, Helvetica, sans-serif; font-weight:700; letter-spacing:3px; }
 .desktop-nav { display:flex; gap:27px; margin-left:auto; font-size:14px; font-weight:700; }
 .desktop-nav a { transition:.2s; }
 .desktop-nav a:hover { color:var(--red); }
@@ -121,6 +132,8 @@ button { font:inherit; }
 footer { color:#fff; background:#06131a; border-top:1px solid #ffffff13; }
 .footer-grid { min-height:145px; display:grid; grid-template-columns:1fr auto auto; align-items:center; gap:65px; }
 .footer-grid p { margin:0; color:#91a1a9; font-size:12px; line-height:1.7; }
+.footer-credit { color:inherit; text-decoration:none; transition:color .2s ease; }
+.footer-credit:hover { color:#fff; }
 .logo-footer { width:250px; }
 .service-detail { padding:58px 0 80px; background:var(--soft); }
 .back-link { display:inline-flex; align-items:center; gap:8px; margin-bottom:32px; color:var(--muted); font-size:13px; font-weight:800; }
