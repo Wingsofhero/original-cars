@@ -1,13 +1,5 @@
 @import "tailwindcss";
 
-@font-face {
-  font-family:'Lobster';
-  src:url('/fonts/lobster-latin-ext-400-normal.woff2') format('woff2');
-  font-style:normal;
-  font-weight:400;
-  font-display:swap;
-}
-
 :root { --ink:#071720; --ink-2:#0d2632; --red:#ee162d; --soft:#f3f5f6; --line:#dfe4e6; --muted:#5d686f; }
 * { box-sizing:border-box; }
 html { scroll-behavior:smooth; }
@@ -20,8 +12,6 @@ button { font:inherit; }
 .header-inner { height:100%; display:flex; align-items:center; gap:34px; }
 .logo { display:block; width:238px; flex:none; }
 .logo img, .logo svg { display:block; width:100%; height:auto; }
-.logo-wordmark, .logo-company-suffix { font-family:'Lobster', cursive; }
-.logo-company-suffix { letter-spacing:.5px; }
 .logo-subtitle { font-family:Arial, Helvetica, sans-serif; font-weight:700; letter-spacing:3px; }
 .desktop-nav { display:flex; gap:27px; margin-left:auto; font-size:14px; font-weight:700; }
 .desktop-nav a { transition:.2s; }
