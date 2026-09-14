@@ -11,8 +11,7 @@ button { font:inherit; }
 .site-header { position:sticky; top:0; z-index:40; height:76px; color:#fff; background:rgba(5,19,27,.98); border-bottom:1px solid rgba(255,255,255,.1); }
 .header-inner { height:100%; display:flex; align-items:center; gap:34px; }
 .logo { display:block; width:238px; flex:none; }
-.logo img, .logo svg { display:block; width:100%; height:auto; }
-.logo-subtitle { font-family:Arial, Helvetica, sans-serif; font-weight:700; letter-spacing:3px; }
+.logo img { display:block; width:100%; height:auto; }
 .desktop-nav { display:flex; gap:27px; margin-left:auto; font-size:14px; font-weight:700; }
 .desktop-nav a { transition:.2s; }
 .desktop-nav a:hover { color:var(--red); }
