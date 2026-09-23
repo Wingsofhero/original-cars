@@ -10,19 +10,19 @@ export default function Home() {
   return <main id="top">
     <SiteHeader />
     <section className="hero">
-      <Image className="hero-image" src="/images/hero-building.webp" alt="Budova autoservisu Original Cars v Partizánskom" fill priority sizes="100vw" />
+      <Image className="hero-image hunter-hero-image" src="/images/hero-geometry.webp" alt="Vozidlo počas merania 3D geometrie Hunter" fill priority sizes="100vw" />
       <div className="hero-overlay" />
       <div className="shell hero-inner"><div className="hero-copy">
-        <p className="eyebrow light"><span /> Váš spoľahlivý autoservis</p>
-        <h1><span>AUTOSERVIS</span><em>V PARTIZÁNSKOM</em></h1>
-        <p>Servisujeme všetky značky osobných aj úžitkových vozidiel. Profesionálny prístup a všetky služby pod jednou strechou.</p>
-        <div className="hero-actions"><a className="button primary" href="tel:+421903277970"><Phone size={19} /> Objednať</a><a className="button outline" href="tel:+421903277970"><Phone size={19} /> Zavolať</a></div>
+        <p className="eyebrow light"><span /> Hunter HawkEye Elite</p>
+        <h1><span>3D GEOMETRIA</span><em>HUNTER</em></h1>
+        <p>Disponujeme najmodernejšou 3D geometriou Hunter HawkEye Elite – najvyššou radou technológie Hunter. Presné meranie a nastavenie na počkanie približne za 30 minút.</p>
+        <div className="hero-actions"><a className="button primary" href="tel:+421903277970"><Phone size={19} /> Objednať geometriu</a><a className="button outline" href="/sluzby/geometria-3d">Zistiť viac <ArrowRight size={18} /></a></div>
       </div></div>
     </section>
     <section className="quick-strip" aria-label="Základné informácie"><div className="shell quick-grid">
       <div><Clock3 /><span><small>Otváracie hodiny</small>Po – Pi<br />7:00 – 15:00</span></div>
       <div><Car /><span><small>Servisujeme</small>Osobné aj úžitkové</span></div>
-      <div><Gauge /><span><small>Špecializácia</small>Všetky značky áut</span></div>
+      <div><Gauge /><span><small>Špecializácia</small>Všetky značky automobilov</span></div>
     </div></section>
     <section className="section services" id="sluzby"><div className="shell">
       <div className="section-heading compact"><div><p className="eyebrow red"><span /> Naše služby</p><h2>Všetko pre vaše auto.</h2></div><p>Od pravidelnej údržby až po náročnejšie opravy. Vyberte službu a pozrite si podrobnosti.</p></div>
@@ -32,7 +32,7 @@ export default function Home() {
       <div className="bg-copy"><p className="eyebrow bg-eyebrow"><span /> Produkty BG</p><div className="bg-status"><BadgeCheck size={18} /> Oficiálny predajca a distribútor</div><h2>Portfólio produktov<br /><em>značky BG.</em></h2><p>Prísady do motorových a prevodových olejov, produkty do automatických prevodoviek aj palivových systémov. Vykonávame tiež profesionálnu dekarbonizáciu benzínových a dieselových motorov produktmi BG.</p><div className="bg-actions"><a className="button primary" href="/sluzby/dekarbonizacia-bg-a-prisady">Pozrieť ponuku <ArrowRight size={17} /></a><a className="button outline" href="tel:+421903277970"><Phone size={17} /> Informovať sa</a></div></div>
       <div className="bg-photo-wall"><figure className="bg-photo-main"><Image src="/images/bg-products-7509.webp" alt="Portfólio produktov značky BG" fill sizes="(max-width: 800px) 100vw, 44vw" /></figure><figure><Image src="/images/bg-products-7507.webp" alt="Produkty BG pre motory a palivové systémy" fill sizes="(max-width: 800px) 48vw, 22vw" /></figure><figure><Image src="/images/bg-products-7506.webp" alt="Prísady BG do prevodoviek a olejov" fill sizes="(max-width: 800px) 48vw, 22vw" /></figure></div>
     </div></section>
-    <section className="ride"><div className="shell ride-inner"><div className="ride-icon"><Car /></div><div><p className="eyebrow light"><span /> Myslíme aj na vás</p><h2>Auto ostáva u nás. Vy sa dostanete domov.</h2><p>Nechávate auto v servise? Ak sa nemáte ako dostať domov, zabezpečíme vám odvoz.</p></div><a className="button light-button" href="tel:+421903277970"><Phone size={18} /> Dohodnúť odvoz</a></div></section>
+    <section className="ride"><div className="shell ride-inner"><div className="ride-icon"><Car /></div><div><p className="eyebrow light"><span /> Bezplatný odvoz</p><h2>Auto ostáva u nás. Vy sa dostanete domov.</h2><p>Nechávate auto v servise? Ak sa nemáte ako dostať domov, zabezpečíme vám bezplatný odvoz. Našim dlhodobým zákazníkom po dohode ponúkame aj možnosť zapožičania náhradného vozidla počas opravy.</p></div><a className="button light-button" href="tel:+421903277970"><Phone size={18} /> Dohodnúť odvoz</a></div></section>
     <section className="section about" id="o-nas"><div className="shell about-grid">
       <div><p className="eyebrow red"><span /> Original Cars</p><h2>Poctivý servis.<br />Jasné riešenia.</h2><p className="about-lead">Profesionálny a osobný prístup pre každý typ vozidla. Najprv nájdeme príčinu, potom vám zrozumiteľne vysvetlíme ďalší postup.</p><a className="button dark-button" href="tel:+421903277970"><Phone size={18} /> Dohodnúť termín</a></div>
       <div className="benefit-grid"><article><Wrench /><h3>Moderné vybavenie</h3><p>Presná diagnostika a technika pre kvalitnú prácu.</p></article><article><Car /><h3>Všetky značky</h3><p>Osobné aj úžitkové vozidlá na jednom mieste.</p></article><article><UsersRound /><h3>Osobný prístup</h3><p>Komunikujeme priamo, zrozumiteľne a férovo.</p></article><article><ShieldCheck /><h3>Pod jednou strechou</h3><p>Kompletný rozsah servisu bez zbytočného behania.</p></article></div>

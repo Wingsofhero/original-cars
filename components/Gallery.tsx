@@ -12,6 +12,11 @@ const images = [
   ['/images/reception.webp', 'Recepcia autoservisu Original Cars'],
   ['/images/geometry-equipment.webp', 'Moderné zariadenie na meranie geometrie'],
   ['/images/air-conditioning.webp', 'Servis klimatizácie vozidla'],
+  ['/images/gallery-service-7817.jpg', 'Vozidlo počas odbornej kontroly v servise Original Cars'],
+  ['/images/gallery-service-7818.jpg', 'Servisné práce na vozidle v dielni Original Cars'],
+  ['/images/gallery-service-7820.jpg', 'Kontrola vozidla počas servisného zásahu'],
+  ['/images/gallery-diagnostics-7822.jpg', 'Diagnostika vozidla profesionálnym zariadením'],
+  ['/images/gallery-diagnostics-7830.jpg', 'Moderné vybavenie na diagnostiku automobilov'],
 ];
 
 export function Gallery() {
