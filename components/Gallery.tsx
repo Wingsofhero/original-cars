@@ -17,6 +17,11 @@ const images = [
   ['/images/gallery-service-7820.jpg', 'Kontrola vozidla počas servisného zásahu'],
   ['/images/gallery-diagnostics-7822.jpg', 'Diagnostika vozidla profesionálnym zariadením'],
   ['/images/gallery-diagnostics-7830.jpg', 'Moderné vybavenie na diagnostiku automobilov'],
+  ['/images/gallery-service-7819.jpg', 'Vozidlo na zdviháku počas servisnej kontroly'],
+  ['/images/gallery-service-7821.jpg', 'Kontrola motorového priestoru vozidla v dielni'],
+  ['/images/gallery-diagnostics-7828.jpg', 'Diagnostický notebook a profesionálne rozhranie pre vozidlá'],
+  ['/images/gallery-diagnostics-7831.jpg', 'Diagnostické adaptéry a vybavenie Original Cars'],
+  ['/images/gallery-towbar-7812.jpg', 'Celý plagát Galia pre zinkované ťažné zariadenia'],
 ];
 
 export function Gallery() {
