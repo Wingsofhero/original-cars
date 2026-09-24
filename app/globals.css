@@ -149,7 +149,7 @@ footer { color:#fff; background:#06131a; border-top:1px solid #ffffff13; }
 .detail-phone { border-color:#cbd2d5; }
 .detail-image { position:relative; min-height:420px; }
 .detail-image img { object-fit:cover; }
-.detail-image.image-contain { background:#eff1d0; }
+.detail-image.image-contain { background:#fff; }
 .detail-image.image-contain img { object-fit:contain!important; }
 .hunter-features { display:grid; grid-template-columns:.82fr 1.18fr; gap:55px; margin-top:18px; padding:50px; color:#fff; background:var(--ink); }
 .hunter-features-heading h2 { margin:0; font-size:clamp(32px,4vw,50px); line-height:1.02; letter-spacing:-1.8px; }
